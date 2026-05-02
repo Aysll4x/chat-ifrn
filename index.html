@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Chat</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ssss
+<script>
+if (localStorage.getItem("logado") !== "true") {
+    window.location.href = "login/login.html";
+}
+</script>
+
+<header>
+<h1>Chat IFRN</h1>
+</header>
+
+<div class="person-selector">
+<button id="Ayslla-selector" class="active-person">Ayslla</button>
+<button id="Mylla-selector">Mylla</button>
+</div>
+
+<div class="chat-container">
+<div class="chat-messages"></div>
+
+<form class="chat-input-form">
+<input type="text" class="chat-input" placeholder="Digite..." required>
+<button type="submit">➤</button>
+</form>
+
+<button class="clear-chat-button">Limpar</button>
+</div>
+
+<a href="">Sobre</a>
+
+<footer>
+<p>IFRN Campus Santa Cruz</p>
+<p>Trabalho de Programação para Internet</p>
+<p>Prof. Marcelo Figueiredo Barbosa Júnior</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

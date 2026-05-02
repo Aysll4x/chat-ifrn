@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: linear-gradient(to bottom, #022ea8dc, #80eaf1b2);
+}
+
+header, footer {
+    background: #290464;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+main {
+    max-width: 300px;
+    margin: 80px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #0f0344;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
